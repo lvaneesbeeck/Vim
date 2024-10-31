@@ -25,7 +25,8 @@ nnoremap <leader>y "+y
 vnoremap <leader>y "+y
 nnoremap <leader>p "+p
 vnoremap <leader>p "+p
-inoremap <C-v> <C-r>+       " ctrl-V now works in insert mode :-)
+" ctrl-v now works in insert mode :-)
+inoremap <C-v> <C-r>+
 
 " Don't use Ex mode, use Q for formatting.
 "map Q gq
