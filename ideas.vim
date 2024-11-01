@@ -1,6 +1,16 @@
+c-y / c-p to yank/paste to the clipboard?
+c-j / c-k to scroll up/down half a screen?
 Remap c-/ to perform PyCharm's comment, then exit
 Set jk to Esc so it also works in visual modes
-Remap µ to Esc?
+Remap µ to Esc? Remap µ to . in normal mode
+
+Inspiration for an azerty-friendly vimrc:
+https://github.com/frazrepo/vimrc/blob/master/minivimrc.vim
+https://github.com/frazrepo/vimrc/blob/master/lightvimrc.vim
+https://stackoverflow.com/questions/33245317/vim-and-azerty-keyboards
+A practical hint: if your keyboard allows it, remap the CapsLock to Esc when pressed and some other useful function
+(eg. Hyper or layer-up) when held. It’s a game changer 👍🏼
+
 
 " improvement ideas:
 " split config into vim-core, vim-vim, vim-ideavim, vim-nvim

@@ -10,6 +10,9 @@ set hlsearch
 " <Ctrl-l> redraws the screen and removes any search highlighting.
 nnoremap <silent> <C-l> :nohl<CR><C-l>
 
+" adds <> for %
+set matchpairs+=<:>
+
 " Make things more keyboard-friendly
 let mapleader = " "
 inoremap jj <Esc>
