@@ -12,9 +12,11 @@ set scrolloff=5
 set relativenumber
 set number
 
-" Do incremental searching.
+" Search settings
 set incsearch
 set hlsearch
+" <Ctrl-l> redraws the screen and removes any search highlighting.
+nnoremap <silent> <C-l> :nohl<CR><C-l>
 
 " Make things more keyboard-friendly
 let mapleader = " "
@@ -27,6 +29,11 @@ nnoremap <leader>p "+p
 vnoremap <leader>p "+p
 " ctrl-v now works in insert mode :-)
 inoremap <C-v> <C-r>+
+
+" Azerty-specific
+nnoremap ù %
+nnoremap ç {
+nnoremap à }
 
 " Don't use Ex mode, use Q for formatting.
 "map Q gq
