@@ -7,8 +7,21 @@ set number
 " Search settings
 set incsearch
 set hlsearch
+set ignorecase
+set smartcase
 " <Ctrl-l> redraws the screen and removes any search highlighting.
 nnoremap <silent> <C-l> :nohl<CR><C-l>
+
+" TAB BEHAVIOR
+vnoremap < <gv   " keeps visual mode on after indenting
+vnoremap > >gv
+" study these options before activating them. See how they interact with PyCharm
+" set tabstop = 4
+" set softtabstop = 4
+" set shiftwidth = 4
+" set shiftround
+" set expandtab
+" show trailing spaces & mid-row tabs as special ascii chars?
 
 " adds <> for %
 set matchpairs+=<:>

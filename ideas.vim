@@ -1,8 +1,10 @@
+vnoremap <Leader>s :sort<CR>  " sorts the selected text alphabetically
 c-Z for save file? Not necessary in an IDE
 c-y / c-p to yank/paste to the clipboard?
 c-j / c-k to scroll up/down half a screen?
 Remap c-/ to perform PyCharm's comment, then exit
 Set jk to Esc so it also works in visual modes
+    => substitute: set v to Esc to toggle off any visual mode (visual, line visual, block visual)
 Remap µ to Esc? Remap µ to . in normal mode
 
 Inspiration for an azerty-friendly vimrc:
