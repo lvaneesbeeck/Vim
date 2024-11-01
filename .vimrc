@@ -1,11 +1,3 @@
-" improvement ideas:
-" split config into vim-core, vim-vim, vim-ideavim, vim-nvim
-" vim-core for common remappings, others for specific configs
-" make .vimrc load vim-core and vim-vim
-" make .ideavimrc load vim-core and vim-ideavim
-" make init.vim load vim-core and vim-nvim
-
-
 " Show a few lines of context around the cursor. Note that this makes the
 " text scroll if you mouse-click near the start or end of the window.
 set scrolloff=5
@@ -32,6 +24,8 @@ inoremap <C-v> <C-r>+
 
 " Azerty-specific
 nnoremap ù %
+vnoremap ç {
+vnoremap à }
 nnoremap ç {
 nnoremap à }
 
@@ -42,7 +36,7 @@ nnoremap à }
 " Highlight copied text
 Plug 'machakann/vim-highlightedyank'
 " Commentary plugin
-Plug 'tpope/vim-commentary'
+" Plug 'tpope/vim-commentary'
 
 
 "" -- Map IDE actions to IdeaVim -- https://jb.gg/abva4t
