@@ -1,3 +1,4 @@
+c-Z for save file? Not necessary in an IDE
 c-y / c-p to yank/paste to the clipboard?
 c-j / c-k to scroll up/down half a screen?
 Remap c-/ to perform PyCharm's comment, then exit
