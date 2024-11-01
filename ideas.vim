@@ -1,3 +1,5 @@
+map s to the Sneakers plugin. s (delete current char & enter insert) doesn't really have practical use cases...
+    it could be useful to delete the current visual selection (eg viws) but viwc does the exact same thing.
 vnoremap <Leader>s :sort<CR>  " sorts the selected text alphabetically
 c-Z for save file? Not necessary in an IDE
 c-y / c-p to yank/paste to the clipboard?
