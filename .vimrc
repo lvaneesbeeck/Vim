@@ -52,7 +52,7 @@ nnoremap à }
 " Highlight copied text
 Plug 'machakann/vim-highlightedyank'
 " Commentary plugin
-" Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-commentary'
 
 
 "" -- Map IDE actions to IdeaVim -- https://jb.gg/abva4t
